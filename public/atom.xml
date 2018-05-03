@@ -5,9 +5,9 @@
   <subtitle>随笔</subtitle>
   <link href="/public/atom.xml" rel="self"/>
   
-  <link href="https://doubleboom.github.io/"/>
+  <link href="https://doubleboom.github.io/public/"/>
   <updated>2018-05-03T07:49:54.439Z</updated>
-  <id>https://doubleboom.github.io/</id>
+  <id>https://doubleboom.github.io/public/</id>
   
   <author>
     <name>Leee</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://doubleboom.github.io/2018/05/03/hello-world/"/>
-    <id>https://doubleboom.github.io/2018/05/03/hello-world/</id>
+    <link href="https://doubleboom.github.io/public/2018/05/03/hello-world/"/>
+    <id>https://doubleboom.github.io/public/2018/05/03/hello-world/</id>
     <published>2018-05-03T03:44:42.676Z</published>
     <updated>2018-05-03T07:49:54.439Z</updated>
     
@@ -29,10 +29,10 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://doubleboom.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://doubleboom.github.io/public/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="随笔" scheme="https://doubleboom.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://doubleboom.github.io/public/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
