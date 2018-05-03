@@ -10,7 +10,7 @@
       <% } %>
       <%- partial('post/title') %>
     </header>
-    <div class="entry">
+    <div class="entry <% if(item.excerpt){ %> excerpt<% } %> ">
       <% if (item.excerpt && index){ %>
         <%- item.excerpt %>
       <% } else { %>
@@ -20,7 +20,7 @@
     <footer>
       <% if (index){ %>
         <% if (item.excerpt){ %>
-          <div class="alignleft">
+          <div class="alignright">
             <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= theme.excerpt_link %></a>
           </div>
         <% } %>

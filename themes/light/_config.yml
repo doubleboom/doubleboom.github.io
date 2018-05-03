@@ -1,13 +1,14 @@
 menu:
-  Home:
-  Archives: archives
+  主页:
+  归档: archives
 
 widgets:
-- search
+# - search
 - category
 - tag
+- recent_posts 
 
-excerpt_link: Read More
+excerpt_link: 阅读全文 #<!-- more -->
 
 twitter:
   username:
@@ -27,10 +28,10 @@ fancybox: true
 google_analytics:
 rss:
 
-comment_provider: facebook
-# Facebook comment
-facebook:
-  appid: 123456789012345
-  comment_count: 5
-  comment_width: 840
-  comment_colorscheme: light
+# comment_provider: facebook
+# # Facebook comment
+# facebook:
+#   appid: 123456789012345
+#   comment_count: 5
+#   comment_width: 840
+#   comment_colorscheme: light
