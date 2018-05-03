@@ -1,6 +1,7 @@
 menu:
   主页:
   归档: archives
+  RSS: atom.xml
 
 widgets:
 # - search
@@ -18,15 +19,15 @@ twitter:
 addthis:
   enable: true
   pubid:
-  facebook: true
-  twitter: true
-  google: true
+  facebook: false
+  twitter: false
+  google: false
   pinterest: true
 
 fancybox: true
 
 google_analytics:
-rss:
+rss: atom.xml
 
 # comment_provider: facebook
 # # Facebook comment
@@ -35,3 +36,12 @@ rss:
 #   comment_count: 5
 #   comment_width: 840
 #   comment_colorscheme: light
+valine:
+  enable: true
+  appId:  kmMKqkSXWWEaldKSpO4w43aM-gzGzoHsz
+  appKey: Ligl9mlWd0n0Iu1E2yXUGXQa
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊! 
+  guest_info: nick,mail,link
+  pageSize: 10
